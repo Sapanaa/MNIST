@@ -35,7 +35,16 @@ Two classifiers are compared: **SGDClassifier** and **RandomForestClassifier**.
 
 ---
 
+
+## MultiClass Classification
+- If a binary classifier is used for a multiclass task, Scikit-Learn automatically applies OvA (except SVM, which uses OvO).
+
+
+---
+
 ## How to Run
 1. Install dependencies:
 ```bash
 pip install numpy matplotlib scikit-learn
+
+
